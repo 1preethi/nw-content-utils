@@ -1,0 +1,50 @@
+{
+    "name": "@nw/content-utils",
+    "version": "0.0.1",
+    "sideEffects": false,
+    "dependencies": {
+        "@emotion/react": "11.9.0",
+        "@emotion/styled": "11.8.1",
+        "@loadable/component": "5.15.2",
+        "@monaco-editor/react": "4.4.5",
+        "@mui/icons-material": "5.8.4",
+        "@mui/lab": "5.0.0-alpha.86",
+        "@mui/material": "5.8.4",
+        "@prisma/client": "3.14.0",
+        "@remix-run/node": "^1.5.1",
+        "@remix-run/react": "^1.5.1",
+        "@remix-run/serve": "^1.5.1",
+        "ace-builds": "1.6.0",
+        "bcryptjs": "2.4.3",
+        "chance": "1.1.8",
+        "prismjs": "1.28.0",
+        "pyodide": "0.20.0",
+        "python-shell": "3.0.1",
+        "react": "^17.0.2",
+        "react-ace": "10.1.0",
+        "react-copy-to-clipboard": "5.1.0",
+        "react-dom": "^17.0.2",
+        "react-helmet": "6.1.0",
+        "react-hook-form": "7.31.3",
+        "react-hook-form-mui": "3.5.7",
+        "react-json-view": "1.21.3",
+        "react-monaco-editor": "0.48.0",
+        "react-select": "5.3.2",
+        "react-simple-code-editor": "0.11.2",
+        "react-table": "7.8.0",
+        "selecttransform": "1.6.1",
+        "stjs": "0.0.5",
+        "stjs_dev": "1.0.0"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "2.4.2",
+        "@types/react": "^17.0.45",
+        "@types/react-dom": "^17.0.17",
+        "esbuild-register": "3.3.2",
+        "eslint": "^8.15.0",
+        "typescript": "4.7.3"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
