@@ -1,1 +1,1 @@
-export * from "./components/McqPoolBuilder";
+export * from "./components/McqPoolBuilder/";

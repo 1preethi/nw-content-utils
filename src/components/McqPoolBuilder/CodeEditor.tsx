@@ -1,3 +1,5 @@
+import React from "react"
+
 import AceEditor from "react-ace";
 
 // import "ace-builds/src-noconflict/mode-javascript";

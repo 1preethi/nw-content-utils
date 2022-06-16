@@ -1,4 +1,6 @@
-import { useEffect, useState, useMemo } from "react";
+// @ts-nocheck
+
+import React, { useEffect, useState, useMemo } from "react";
 
 import { FormContainer, TextFieldElement } from 'react-hook-form-mui'
 import Select from 'react-select';
@@ -726,5 +728,3 @@ export default function McqPoolBuilder() {
         </div>
     );
 }
-
-

@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "start-storybook -p 6006 -s public --ci",
     "build-storybook": "npm run build && build-storybook -s public",
-    "build": "rm -rf dist && vite build",
+    "build": "rm -rf dist && rollup -c",
     "preview": "vite preview"
   },
+  "module": "dist/lib.esm.js",
+  "typings": "dist/lib.d.ts",
   "files": [
     "dist"
   ],
-  "main": "dist/lib.ts",
+  "main": "dist/lib.js",
   "dependencies": {
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
@@ -45,10 +47,13 @@
     "react-table": "7.8.0",
     "selecttransform": "1.6.1",
     "stjs": "0.0.5",
-    "stjs_dev": "1.0.0"
+    "stjs_dev": "1.0.0",
+    "tslib": "2.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
+    "@rollup/plugin-commonjs": "22.0.0",
+    "@rollup/plugin-node-resolve": "13.3.0",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
@@ -57,17 +62,17 @@
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
     "@types/bcryptjs": "2.4.2",
-    "rollup": "2.75.6",
     "@types/react": "^17.0.45",
     "@types/react-dom": "^17.0.17",
     "babel-loader": "^8.2.5",
     "esbuild-register": "3.3.2",
     "eslint": "^8.15.0",
-    "typescript": "4.7.3",
-    "vite": "2.9.12"
-  },
-  "overrides": {
-    "rollup": "2.75.6"
+    "rollup": "2.75.6",
+    "rollup-plugin-copy": "3.4.0",
+    "rollup-plugin-peer-deps-external": "2.2.4",
+    "rollup-plugin-postcss": "4.0.1",
+    "rollup-plugin-typescript2": "0.31.2",
+    "typescript": "4.7.3"
   },
   "engines": {
     "node": ">=14"

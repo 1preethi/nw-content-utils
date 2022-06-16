@@ -1,17 +1,21 @@
-nw-content-utils:build: cache hit, replaying output [2m9f1b6ef533e1d86d[0m
-[33mnw-content-utils:build: [0m
-[33mnw-content-utils:build: [0m> nw-content-utils@0.0.4 build
-[33mnw-content-utils:build: [0m> rm -rf dist && vite build
-[33mnw-content-utils:build: [0m
-[33mnw-content-utils:build: [0mvite v2.9.12 building for production...
-[33mnw-content-utils:build: [0mtransforming...
-[33mnw-content-utils:build: [0m✓ 1261 modules transformed.
-[33mnw-content-utils:build: [0mrendering chunks...
-[33mnw-content-utils:build: [0mdist/style.css   0.37 KiB / gzip: 0.24 KiB
-[33mnw-content-utils:build: [0mdist/lib.ts      2300.48 KiB / gzip: 477.70 KiB
-[33mnw-content-utils:build: [0mdist/lib.ts   1276.87 KiB / gzip: 380.12 KiB
-[33mnw-content-utils:build: [0mnpm notice 
-[33mnw-content-utils:build: [0mnpm notice New minor version of npm available! 8.11.0 -> 8.12.2
-[33mnw-content-utils:build: [0mnpm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.12.2>
-[33mnw-content-utils:build: [0mnpm notice Run `npm install -g npm@8.12.2` to update!
-[33mnw-content-utils:build: [0mnpm notice 
+nw-content-utils:build: cache hit, replaying output [2m56cff3f6c856ba91[0m
+[32mnw-content-utils:build: [0m
+[32mnw-content-utils:build: [0m> nw-content-utils@0.0.4 build
+[32mnw-content-utils:build: [0m> rm -rf dist && rollup -c
+[32mnw-content-utils:build: [0m
+[32mnw-content-utils:build: [0m[1mloaded rollup.config.js with warnings[22m
+[32mnw-content-utils:build: [0m[1m[33m(!) Unused external imports[39m[22m
+[32mnw-content-utils:build: [0mdefault imported from external module "rollup-plugin-copy" but never used in "rollup.config.js"
+[32mnw-content-utils:build: [0m[36m
+[32mnw-content-utils:build: [0m[1m./src/lib.ts[22m → [1m./dist/lib.js, ./dist/lib.esm.js[22m...[39m
+[32mnw-content-utils:build: [0m[1m[33m(!) Circular dependencies[39m[22m
+[32mnw-content-utils:build: [0m../../node_modules/selecttransform/dist/internal.js -> ../../node_modules/selecttransform/dist/array-executors/index.js -> ../../node_modules/selecttransform/dist/array-executors/conditional.js -> ../../node_modules/selecttransform/dist/internal.js
+[32mnw-content-utils:build: [0m../../node_modules/selecttransform/dist/internal.js -> ../../node_modules/selecttransform/dist/key-executors/index.js -> ../../node_modules/selecttransform/dist/key-executors/concat.js -> ../../node_modules/selecttransform/dist/internal.js
+[32mnw-content-utils:build: [0m../../node_modules/selecttransform/dist/internal.js -> ../../node_modules/selecttransform/dist/key-executors/index.js -> ../../node_modules/selecttransform/dist/key-executors/each.js -> ../../node_modules/selecttransform/dist/internal.js
+[32mnw-content-utils:build: [0m...and 13 more
+[32mnw-content-utils:build: [0m[32mcreated [1m./dist/lib.js, ./dist/lib.esm.js[22m in [1m15s[22m[39m
+[32mnw-content-utils:build: [0mnpm notice 
+[32mnw-content-utils:build: [0mnpm notice New minor version of npm available! 8.11.0 -> 8.12.2
+[32mnw-content-utils:build: [0mnpm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.12.2>
+[32mnw-content-utils:build: [0mnpm notice Run `npm install -g npm@8.12.2` to update!
+[32mnw-content-utils:build: [0mnpm notice 
