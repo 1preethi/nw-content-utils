@@ -1,6 +1,6 @@
-nw-content-utils:build: cache hit, replaying output [2m2c06540f3c5a8943[0m
+nw-content-utils:build: cache hit, replaying output [2m9f1b6ef533e1d86d[0m
 [33mnw-content-utils:build: [0m
-[33mnw-content-utils:build: [0m> nw-content-utils@0.0.3 build
+[33mnw-content-utils:build: [0m> nw-content-utils@0.0.4 build
 [33mnw-content-utils:build: [0m> rm -rf dist && vite build
 [33mnw-content-utils:build: [0m
 [33mnw-content-utils:build: [0mvite v2.9.12 building for production...
