@@ -1,6 +1,6 @@
 {
   "name": "nw-content-utils",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "sideEffects": false,
   "scripts": {
     "dev": "start-storybook -p 6006 -s public --ci",
