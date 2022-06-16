@@ -1,12 +1,16 @@
 {
     "name": "nw-content-utils",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "sideEffects": false,
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "rm -rf dist && vite build",
         "preview": "vite preview"
     },
+    "files": [
+        "dist"
+    ],
+    "main": "dist/lib.ts",
     "dependencies": {
         "@emotion/react": "11.9.0",
         "@emotion/styled": "11.8.1",
