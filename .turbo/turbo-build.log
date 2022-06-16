@@ -1,0 +1,17 @@
+nw-content-utils:build: cache hit, replaying output [2m2c06540f3c5a8943[0m
+[33mnw-content-utils:build: [0m
+[33mnw-content-utils:build: [0m> nw-content-utils@0.0.3 build
+[33mnw-content-utils:build: [0m> rm -rf dist && vite build
+[33mnw-content-utils:build: [0m
+[33mnw-content-utils:build: [0mvite v2.9.12 building for production...
+[33mnw-content-utils:build: [0mtransforming...
+[33mnw-content-utils:build: [0m✓ 1261 modules transformed.
+[33mnw-content-utils:build: [0mrendering chunks...
+[33mnw-content-utils:build: [0mdist/style.css   0.37 KiB / gzip: 0.24 KiB
+[33mnw-content-utils:build: [0mdist/lib.ts      2300.48 KiB / gzip: 477.70 KiB
+[33mnw-content-utils:build: [0mdist/lib.ts   1276.87 KiB / gzip: 380.12 KiB
+[33mnw-content-utils:build: [0mnpm notice 
+[33mnw-content-utils:build: [0mnpm notice New minor version of npm available! 8.11.0 -> 8.12.2
+[33mnw-content-utils:build: [0mnpm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.12.2>
+[33mnw-content-utils:build: [0mnpm notice Run `npm install -g npm@8.12.2` to update!
+[33mnw-content-utils:build: [0mnpm notice 
