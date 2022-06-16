@@ -5,14 +5,12 @@ import Select from 'react-select';
 import Chance from 'chance';
 import { SelectTransform as ST } from 'selecttransform';
 import ReactJson from 'react-json-view'
-import loadable from '@loadable/component'
-
-import '../styles/pool-generator.css'
+//import loadable from '@loadable/component'
 
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Table from "./Table";
 
-const ReactJson = loadable(() => new Promise((r, c) => import('react-json-view').then(result => r(result.default), c)))
+//const ReactJson = loadable(() => new Promise((r, c) => import('react-json-view').then(result => r(result.default), c)))
 
 const st = new ST();
 

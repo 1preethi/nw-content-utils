@@ -9,7 +9,6 @@ import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/mode-python";
 import "ace-builds/src-noconflict/theme-github";
 import "ace-builds/src-noconflict/ext-language_tools";
-import "../styles/code-editor.css"
 
 const defaultCode = `from io import StringIO 
 import sys
